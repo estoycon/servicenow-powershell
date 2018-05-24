@@ -1,0 +1,171 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">ServiceNow</S>
+      <Version N="Version">1.1.0</Version>
+      <S N="Type">Module</S>
+      <S N="Description">This module provides cmdlets allowing you to retrieve information from your ServiceNow instance`s rest API</S>
+      <S N="Author">Sam Martin</S>
+      <Obj N="CompanyName" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>SamMartin</S>
+          <S>RickA</S>
+        </LST>
+      </Obj>
+      <S N="Copyright">(c) 2015 Sam. All rights reserved.</S>
+      <DT N="PublishedDate">2018-03-07T21:26:10-05:00</DT>
+      <Obj N="InstalledDate" RefId="2">
+        <DT>2018-05-23T10:00:53.929663-04:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="3">
+            <TN RefId="2">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/Sam-Martin/servicenow-powershell/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/Sam-Martin/servicenow-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="4">
+        <TNRef RefId="1" />
+        <LST>
+          <S>Azure</S>
+          <S>Automation</S>
+          <S>ServiceNow</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="5">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-ServiceNowChangeRequest</S>
+                <S>Get-ServiceNowConfigurationItem</S>
+                <S>Get-ServiceNowIncident</S>
+                <S>Get-ServiceNowRequest</S>
+                <S>Get-ServiceNowTable</S>
+                <S>Get-ServiceNowUser</S>
+                <S>Get-ServiceNowUserGroup</S>
+                <S>New-ServiceNowIncident</S>
+                <S>New-ServiceNowQuery</S>
+                <S>New-ServiceNowTableEntry</S>
+                <S>Remove-ServiceNowAuth</S>
+                <S>Remove-ServiceNowTableEntry</S>
+                <S>Set-ServiceNowAuth</S>
+                <S>Test-ServiceNowAuthIsSet</S>
+                <S>Update-ServiceNowChangeRequest</S>
+                <S>Update-ServiceNowIncident</S>
+                <S>Update-ServiceNowTableEntry</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-ServiceNowChangeRequest</S>
+                <S>Get-ServiceNowConfigurationItem</S>
+                <S>Get-ServiceNowIncident</S>
+                <S>Get-ServiceNowRequest</S>
+                <S>Get-ServiceNowTable</S>
+                <S>Get-ServiceNowUser</S>
+                <S>Get-ServiceNowUserGroup</S>
+                <S>New-ServiceNowIncident</S>
+                <S>New-ServiceNowQuery</S>
+                <S>New-ServiceNowTableEntry</S>
+                <S>Remove-ServiceNowAuth</S>
+                <S>Remove-ServiceNowTableEntry</S>
+                <S>Set-ServiceNowAuth</S>
+                <S>Test-ServiceNowAuthIsSet</S>
+                <S>Update-ServiceNowChangeRequest</S>
+                <S>Update-ServiceNowIncident</S>
+                <S>Update-ServiceNowTableEntry</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="9">
+        <TNRef RefId="1" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2/</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2015 Sam. All rights reserved.</S>
+          <S N="description">This module provides cmdlets allowing you to retrieve information from your ServiceNow instance`s rest API</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">157</S>
+          <S N="downloadCount">287</S>
+          <S N="packageSize">24320</S>
+          <S N="published">3/7/18 9:26:10 PM -05:00</S>
+          <S N="created">3/7/18 9:26:10 PM -05:00</S>
+          <S N="tags">Azure Automation ServiceNow PSModule PSFunction_Get-ServiceNowChangeRequest PSCommand_Get-ServiceNowChangeRequest PSFunction_Get-ServiceNowConfigurationItem PSCommand_Get-ServiceNowConfigurationItem PSFunction_Get-ServiceNowIncident PSCommand_Get-ServiceNowIncident PSFunction_Get-ServiceNowRequest PSCommand_Get-ServiceNowRequest PSFunction_Get-ServiceNowTable PSCommand_Get-ServiceNowTable PSFunction_Get-ServiceNowUser PSCommand_Get-ServiceNowUser PSFunction_Get-ServiceNowUserGroup PSCommand_Get-ServiceNowUserGroup PSFunction_New-ServiceNowIncident PSCommand_New-ServiceNowIncident PSFunction_New-ServiceNowQuery PSCommand_New-ServiceNowQuery PSFunction_New-ServiceNowTableEntry PSCommand_New-ServiceNowTableEntry PSFunction_Remove-ServiceNowAuth PSCommand_Remove-ServiceNowAuth PSFunction_Remove-ServiceNowTableEntry PSCommand_Remove-ServiceNowTableEntry PSFunction_Set-ServiceNowAuth PSCommand_Set-ServiceNowAuth PSFunction_Test-ServiceNowAuthIsSet PSCommand_Test-ServiceNowAuthIsSet PSFunction_Update-ServiceNowChangeRequest PSCommand_Update-ServiceNowChangeRequest PSFunction_Update-ServiceNowIncident PSCommand_Update-ServiceNowIncident PSFunction_Update-ServiceNowTableEntry PSCommand_Update-ServiceNowTableEntry PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2018-05-23T13:59:42Z</S>
+          <S N="NormalizedVersion">1.1.0</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">ServiceNow.nuspec|ServiceNow-Automation.json|ServiceNow.format.ps1xml|ServiceNow.psd1|ServiceNow.psm1|Public\Get-ServiceNowChangeRequest.ps1|Public\Get-ServiceNowConfigurationItem.ps1|Public\Get-ServiceNowIncident.ps1|Public\Get-ServiceNowRequest.ps1|Public\Get-ServiceNowTable.ps1|Public\Get-ServiceNowUser.ps1|Public\Get-ServiceNowUserGroup.ps1|Public\New-ServiceNowIncident.ps1|Public\New-ServiceNowQuery.ps1|Public\New-ServiceNowTableEntry.ps1|Public\Remove-ServiceNowAuth.ps1|Public\Remove-ServiceNowTableEntry.ps1|Public\Set-ServiceNowAuth.ps1|Public\Test-ServiceNowAuthIsSet.ps1|Public\Update-ServiceNowChangeRequest.ps1|Public\Update-ServiceNowIncident.ps1|Public\Update-ServiceNowTableEntry.ps1</S>
+          <S N="GUID">b90d67da-f8d0-4406-ad74-89d169cd0633</S>
+          <S N="CompanyName">None</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">/usr/local/share/powershell/Modules/ServiceNow/1.1.0</S>
+    </MS>
+  </Obj>
+</Objs>
